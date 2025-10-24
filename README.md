@@ -17,7 +17,7 @@ Writeups are organized by platform and/or event. Click on the links below to nav
 
 | Platform / Event | Challenge Category | Writeup Link |
 | :--- | :--- | :--- |
-| **HackTheBox** | `Machine` | [Link](https://github.com/Amirrezanobahar/hack-writeups/blob/main/shell-upload) |
+| **FileUpload** | `web` | [Link](https://github.com/Amirrezanobahar/hack-writeups/blob/main/shell-upload) |
 | | `Challenge` | [Link](./HackTheBox/Challenges/) |
 | **TryHackMe** | `Room` | [Link](./TryHackMe/) |
 | **CTF Events** | `Web` | [Link](./CTFs/) |
